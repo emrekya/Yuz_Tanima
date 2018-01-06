@@ -11,7 +11,7 @@ Kullanılan teknoloji OpenCV,JavaCV kullanıcıların resimlerini çekip kaydede
 <img src="https://github.com/emrekya/Yuz_Tanima/blob/master/img/3.PNG" width="200" style="max-width:100%;"></a>
 
 <a href="https://github.com/emrekya/Yuz_Tanima/blob/master/img/4.PNG" target="_blank">
-<img src="https://github.com/emrekya/Yuz_Tanima/blob/master/img/5.PNG" width="200" style="max-width:100%;"></a>
+<img src="https://github.com/emrekya/Yuz_Tanima/blob/master/img/4.PNG" width="200" style="max-width:100%;"></a>
 
 <a href="https://github.com/emrekya/Yuz_Tanima/blob/master/img/5.PNG" target="_blank">
 <img src="https://github.com/emrekya/Yuz_Tanima/blob/master/img/5.PNG" width="200" style="max-width:100%;"></a>
