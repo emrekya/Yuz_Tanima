@@ -113,7 +113,7 @@ public class OpenCVFaceRecognizer {
 			int eslesenResim = label.get(0);
 			int dogruluk = 100 - (int) confidence.get(0);
 			if (dogruluk > 50) {
-				JOptionPane.showMessageDialog(null, (kullaniciAdi(eslesenResim) + " " + "Eşleşme : " + dogruluk),
+				JOptionPane.showMessageDialog(null, ("Eşleşme : " + " " + kullaniciAdi(eslesenResim) ),
 						"Eşleşme Bulundu", JOptionPane.PLAIN_MESSAGE, IconGetir.onayIcon());
 			} else {
 				JOptionPane.showMessageDialog(null, "Eşleşme Bulunamadı", "Eşleşme Bulunamadı",

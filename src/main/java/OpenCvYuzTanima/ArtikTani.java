@@ -11,6 +11,7 @@ import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
+import org.opencv.core.Core;
 //import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfByte;
@@ -35,8 +36,8 @@ public class ArtikTani extends javax.swing.JFrame {
 
 		initComponents();
 		// Sistem Kütüphanesi yükleniyor
-		String[] path = Giris.class.getProtectionDomain().getCodeSource().getLocation().getPath().split("YuzTanima");
-		System.load(path[0]+"/YuzTanima/lib/opencv/build/java/x64/opencv_java331.dll");
+		//String[] path = Giris.class.getProtectionDomain().getCodeSource().getLocation().getPath().split("YuzTanima");
+		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 
 		Runnable rn = () -> {
 			CascadeClassifier cascadeFaceClassifier = new CascadeClassifier(
