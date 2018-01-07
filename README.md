@@ -1,5 +1,5 @@
 # Yuz_Tanima
-Kullanılan teknoloji OpenCV,JavaCV kullanıcıların resimlerini çekip kaydederek daha sonra o kullanıcıyı tanıma uygulaması
+Java SE üzerinde OpenCV,JavaCV kullanıcıların resimlerini çekip Mysql veritabanına kaydederek daha sonra o kullanıcıyı tanıma uygulaması
 
 <a href="https://github.com/emrekya/Yuz_Tanima/blob/master/img/1.PNG" target="_blank">
 <img src="https://github.com/emrekya/Yuz_Tanima/blob/master/img/1.PNG" width="200" style="max-width:100%;"></a>
